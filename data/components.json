@@ -1,0 +1,10 @@
+[
+  {
+    "name": "MQ2",
+    "description": "Gas sensor detecting LPG, CO, and smoke.",
+    "image": "resources/mq2.png",
+    "wiring_image": "resources/wiring_pico_mq2.png",
+    "notes": "Requires calibration. Power at 5V; output is compatible with 3.3V.",
+    "connections": "MQ-2 → Raspberry Pi Pico Wiring:\n\nMQ-2 Pin | Pico Pin\n---------|---------\nVCC      | 5V (external or USB VIN)\nGND      | GND\nAO       | GP26 (ADC0)\nDO       | GP15 (or any free GPIO)\n\nNotes:\n- MQ-2 requires 5V for heating element.\n- Pico logic level is 3.3V — AO and DO are safe.\n- Use AO for analog gas level, DO for threshold detection."
+  }
+]

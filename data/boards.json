@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Raspberry Pi Pico",
+    "description": "Development board with RP2040. 3.3V logic, up to 15mA per pin.",
+    "image": "resources/pico.png",
+    "notes": "Do not exceed 3.3V on GPIO pins."
+  }
+]
